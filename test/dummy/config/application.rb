@@ -3,7 +3,7 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 Bundler.require
-require "yui-rails"
+require "yui_rails"
 
 module Dummy
   class Application < Rails::Application

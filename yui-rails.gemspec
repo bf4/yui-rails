@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require 'yui/rails/version'
+require 'yui_rails/rails/version'
 
 Gem::Specification.new do |s|
 
-  s.name      = 'yui-rails'
+  s.name      = 'yui_rails'
   s.version   = YUI::Rails::VERSION
   s.platform  = Gem::Platform::RUBY
 

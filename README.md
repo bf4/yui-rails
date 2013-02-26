@@ -23,7 +23,7 @@ Rails 3.1 or greater.
 
 Add the gem to your `Gemfile`:
 
-    gem 'yui-rails'
+    gem 'yui_rails'
 
 Update your gem bundle:
 
@@ -35,7 +35,7 @@ You can use the `--javascript` flag with rails to specify your preferred library
 
     rails new foo --javascript=yui
 
-This will create a new project named 'foo' with yui-rails already installed.
+This will create a new project named 'foo' with yui_rails already installed.
 
 ## TODO
 

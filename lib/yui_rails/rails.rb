@@ -1,4 +1,4 @@
-require 'yui/rails/version'
+require 'yui_rails/rails/version'
 
 module YUI
   module Rails
@@ -8,10 +8,10 @@ module YUI
     # and bootstrap-sass
     def self.load!
       if asset_pipeline?
-        require 'yui-rails'
+        require 'yui_rails'
         register_rails_engine
       else
-        raise YUI::Rails::FrameworkNotFound, "yui-rails requires Rails > 3.1"
+        raise YUI::Rails::FrameworkNotFound, "yui_rails requires Rails > 3.1"
       end
     end
 
@@ -21,11 +21,11 @@ module YUI
     end
 
     def self.register_rails_engine
-      require 'yui/rails/engine'
+      require 'yui_rails/rails/engine'
     end
 
     def self.register_rails_tasks
-      require 'yui/rails/railtie'
+      require 'yui_rails/rails/railtie'
     end
   end
 end
